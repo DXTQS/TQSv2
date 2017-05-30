@@ -23,7 +23,7 @@
 return {
 	-- 蜀势力 Thế lực Thục
 	["#liubei"] = "Loạn Thế Kiêu Hùng",
-	["liubei"] = "Lưu Bị",
+	["liubei"] = "Lưu Văn Bị",
 	["rende"] = "Nhân Đức",
 	[":rende"] = "Trong lượt hành động, có thể mang ít nhất 1 thẻ bài trên tay cấp cho một người chơi khác. Nếu cấp từ 3 thẻ trở lên thì được hồi phục 1HP (hiệu quả một lần trong lượt).",
 
