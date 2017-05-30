@@ -54,7 +54,7 @@ return {
 	["#liguo"] = "Phạm Tộ Khuynh Họa", --飞熊狂豹
 	["&liguo"] = "Lý Thôi Quách Dĩ",
 	["xichou"] = "Hung Toàn",
-	[":xichou"] = "Hạn Định Kỹ, trong lượt hành động, có thể bỏ một thẻ trên tay và chọn một thằng cùng phe, đâm đít nó một cái sau đó bạn rút 3 thẻ bài. nếu mục tiêu có Hạn Định Kỹ đã được kích hoạt, bạn chọn một Hạn Định Kỹ, sau khi kết thúc lượt này, xem như kỹ năng đó chưa kích hoạt.", --锁定技，当你第一次明置此武将牌时，你加2点体力上限并回复2点体力；当你于出牌阶段使用与本阶段你使用的上一张牌不同颜色的牌时，若没有角色处于濒死状态，你失去1点体力。
+	[":xichou"] = "Tọa Định Kỷ. Khi lật tướng, bạn được thêm 2 máu và 2 giới hạn máu. Nếu bạn sử dụng 1 lá không cùng màu với lá đã dùng trong cùng lượt, bạn bị mất một máu.", --锁定技，当你第一次明置此武将牌时，你加2点体力上限并回复2点体力；当你于出牌阶段使用与本阶段你使用的上一张牌不同颜色的牌时，若没有角色处于濒死状态，你失去1点体力。
 	
 	["#zuoci"] = "Bí ẩn cổ tích", --谜之仙人
 	["zuoci"] = "Tả Từ", -- Tả Từ 左慈
@@ -82,7 +82,7 @@ return {
 	["shamoke"] = "Sa Ma Kha", --沙摩柯
 	["#shamoke"] = "Ngũ Khê Man Vương",
 	["jili"] = "Tật Lê", --蒺藜
-	[":jili"] = "Trong một lượt,khi bạn dùng hoặc xuất thẻ 【Sát】, bạn có thể rút X thẻ (X là phạm vi công kích của bạn).", --每当你于出牌阶段内使用第X张牌时，你可以摸X张牌；你可以额外使用X张【杀】（X为你装备区里武器牌的攻击范围）。
+	[":jili"] = "Trong một lượt,khi bạn dùng hoặc xuất thẻ 【Sát】, bạn có thể rút X thẻ. Bạn có thể dùng X lá 【Sát】 (X là phạm vi công kích của bạn).", --每当你于出牌阶段内使用第X张牌时，你可以摸X张牌；你可以额外使用X张【杀】（X为你装备区里武器牌的攻击范围）。
 
 	["masu"] = "Mã Tắc", --马谡
 	["#masu"] = "Duy Ác Kình Mưu",
