@@ -90,7 +90,7 @@ return {
 	[":sanyao"] = "Một lần trong lượt hành động, có thể bỏ một thẻ bài và chọn một người chơi có HP cao nhất, sau đó gây một thiệt hại lên mục tiêu.",
 	["zhiman"] = "Chế Giác",
 	[":zhiman"] = "Khi gây thiệt hại lên một mục tiêu, có thể ngăn thiệt hại đó. Nếu làm vậy bạn có thể lấy một thẻ bài trong khu trang bị hoặc khu Phán xét của mục tiêu. Nếu mục tiêu cùng phe với bạn, mục tiêu có thể thay đổi Phó tướng.",
-	["#Zhiman"] = "%from Ngăn chặn thiệt hại lên %to 的伤害", --的伤害
+	["#Zhiman"] = "%from Ngăn chặn thiệt hại lên %to ", --的伤害
 	["$sanyao1"] = "散谣惑敌，不攻自破",
 	["$sanyao2"] = "三人成虎事多有",
 	["$zhiman1"] = "丞相多虑，且看我的",
@@ -120,7 +120,7 @@ return {
 	["diaoduequip"] = "Điều Độ",
 	[":diaodu"] = "một lần trong lượt hành động, có thể cho tất cả người cùng phe bạn chọn: 1. Sử dụng một thẻ trang bị. 2. Chuyển một thẻ trong khu trang bị của họ vào khu trang bị trống của người cùng phe.",
 	["@Diaodu-distribute"] = "Sử dụng một thẻ trang bị，hoặc chuyển một thẻ trong khu trang bị của họ vào khu trang bị trống của người cùng phe",
-	["~diaodu_equip"] = "Choose a card in the hand, or choose a piece of equipment in the area and a role with your other role",
+	["~diaodu_equip"] = "Chọn thẻ trên tay, or choose a piece of equipment in the area and a role with your other role",
 	["$DiaoduEquip"] = "%from Đã trang bị %card",
 	["diancai"] = "Biển Tài", --典财
 	[":diancai"] = "Khi kết thúc lượt của một người chơi khác, nếu trong lượt này bạn bị mất ít nhất X thẻ(X là số máu hiện tại của bạn), bạn có thể rút thêm bài cho số thẻ trên tay bằng giới hạn HP. Nếu làm vậy bạn có thể thay đổi Phó tướng.",
@@ -151,12 +151,12 @@ return {
 	[":Luminouspearl"] = "Thẻ trang bị·Bảo vật\n\nKỹ Năng：Tỏa Định Kỹ，bạn xem như có kỹ năng Chế Hành. Nếu bạn đã có kỹ năng Chế Hành, hủy bỏ giới hạn số bài đổi của kỹ năng.",
 	["luminouspearl"] = "Chế Hành",
 
-	["gongxin"] = "攻心",
-	[":gongxin"] = "出牌阶段限一次，你可以观看一名其他角色的手牌，然后选择其中一张红桃牌并选择一项：弃置之，或将之置于牌堆顶。",
-	["#gongxin"] = "攻心 %log",
-	["gongxin:discard"] = "弃置",
-	["gongxin:put"] = "置于牌堆顶",
-	["yingzi"] = "英姿",
+	["gongxin"] = "Công Tâm",
+	[":gongxin"] = "Một lần trong lượt hành động，bạn có thể xem bài trong tay người chơi khác và chọn một lá ĐỎ rồi chọn bỏ lá đó hoặc đặt lá đó lên đầu chồng bài。",
+	["#gongxin"] = "Công tâm %log",
+	["gongxin:discard"] = "Bỏ bài。",
+	["gongxin:put"] = "Đặt lên đầu chồng bài",
+	["yingzi"] = "Anh Tư",
 
 	["transform"] = "变更副将",
 	["GameRule:ShowGeneral"] = "选择需要明置的武将",
